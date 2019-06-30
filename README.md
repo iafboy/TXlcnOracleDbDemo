@@ -1,14 +1,14 @@
-#txlcn 5.0 oracle DB demo
+# txlcn 5.0 oracle DB demo
 
 
-##使用说明:
+## 使用说明:
 原始demo代码地址为 https://github.com/codingapi/txlcn-demo
 TM因本身设计原因（原设计只支持mysql），所以沿用原设计，事物记录数据存储入mysql数据库存储，但是业务模块a,b,c全部使用oracle DB,保证业务数据存储入oracle数据中
 1. 本Demo基于[txlcn-最新发布](https://github.com/codingapi/tx-lcn)版本,修改的使用oracleDB版本
 2. 启动Demo前需先启动Consul,启动redis事务管理器TM（txlcn-demo-tm）。
 3. 更多信息见官网 [https://www.txlcn.org](https://www.txlcn.org)   
 4. 原DEMO版本的[性能测试报告](https://txlcn.org/zh-cn/docs/test.html)
-##测试环境搭建
+## 测试环境搭建
 1.下载Consul，[官网地址](https://www.consul.io/)
 2.启动命令为（高可用版本可以自行google）
 consul agent -server -bootstrap-expect 1  -bind=127.0.0.1 -client 0.0.0.0 -data-dir ./tmp
