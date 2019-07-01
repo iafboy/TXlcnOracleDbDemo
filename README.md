@@ -13,6 +13,8 @@ TM因本身设计原因（原设计只支持mysql），所以沿用原设计，�
 
 配置参考 [LCN事务协调器](https://blog.csdn.net/m0_37367413/article/details/87979828)
 
+后台TXManager[配置界面](http://localhost:7970/admin/index.htm) 默认密码为codingapi 
+
 另外其他TX LCN DEMO参考，[地址](https://github.com/1991wangliang/springcloud-lcn-demo)
 
 Spring Cloud Demo参考，[地址](https://blog.csdn.net/sanyaoxu_2/article/details/87902899)
